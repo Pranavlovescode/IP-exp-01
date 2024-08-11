@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head align="center">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://vesit.ves.ac.in/logo.png" type="image/png">
-
+    <link rel="stylesheet" href="style.css">
     <title>College Website</title>
 </head>
+
 <body>
 
     <header align="center">
+        <img id="logo" src="public/navlogo.png" alt="VESIT">
         <h1>Welcome to Vivekanand Education Society's Institute of Technology</h1>
-        <img src="public/navlogo.png" alt="VESIT">
     </header>
 
     <nav align="center">
@@ -23,22 +25,34 @@
     </nav>
 
     <section id="about" align="center">
-        <i><h2>About Us</h2></i>
-        <article>
-            <p>Vivekanand Education Society's Institute of Technology (VESIT) is a premier institution offering quality education and fostering research and innovation.</p>
-            <p>Listen to our introduction:</p>
-            <audio controls>
-                <source src="public/motivational.mp3" type="audio/mp3">
-                            </audio>
-            <p>Watch our promotional video:</p>
-            
-                <iframe width="100%" height="750px" src="https://www.youtube.com/embed/4d1B1DvlLqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-          
+        <i>
+            <h2>About Us</h2>
+        </i>
+        <article class="article">
+            <div class="first-part">
+                <p>Vivekanand Education Society's Institute of Technology (VESIT) is a premier institution offering
+                    quality
+                    education and fostering research and innovation.</p>
+                <p>Listen to our introduction:</p>
+                <audio controls id="audio">
+                    <source src="public/motivational.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div class="second-part">
+                <p>Watch our promotional video:</p>
+
+                <iframe id="yt-video" width="100%" height="750px" src="https://www.youtube.com/embed/4d1B1DvlLqo"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""></iframe>
+            </div>
+
         </article>
     </section>
 
     <section id="services" align="center">
-        <i><h2>Services Offered</h2></i>
+        <i>
+            <h2>Services Offered</h2>
+        </i>
         <ul>
             <li>Undergraduate Programs</li>
             <li>Postgraduate Programs</li>
@@ -49,7 +63,9 @@
     </section>
 
     <section id="details" align="center">
-        <i><h2>College Details</h2></i>
+        <i>
+            <h2>College Details</h2>
+        </i>
         <table border="1" align="center">
             <tr>
                 <th>Detail</th>
@@ -75,13 +91,17 @@
     </section>
 
     <footer align="center">
-        <i><h2 id="contact">Contact Us</h2></i>
+        <i>
+            <h2 id="contact">Contact Us</h2>
+        </i>
         <address>
             Hashu Advani Memorial Complex, Chembur<br>
             Email: <a href="mailto:vesit@ves.ac.in">vesit@ves.ac.in</a><br>
             Phone: +91 8928877911
         </address>
-        <iframe width="50%" height="290" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.4209125759303!2d72.88838791490076!3d19.045222687105593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8add9569a29%3A0xb7ad04bf9a389df7!2sVivekanand%20Education%20Society's%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1637243727938!5m2!1sen!2sin" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <iframe width="50%" height="290" id="gmap_canvas"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.4209125759303!2d72.88838791490076!3d19.045222687105593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8add9569a29%3A0xb7ad04bf9a389df7!2sVivekanand%20Education%20Society's%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1637243727938!5m2!1sen!2sin"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         <p>Follow us on social media:</p>
         <a href="https://www.facebook.com/abccollege" target="_blank">Facebook</a> |
         <a href="https://www.twitter.com/abccollege" target="_blank">Twitter</a> |
@@ -89,4 +109,5 @@
     </footer>
 
 </body>
+
 </html>
