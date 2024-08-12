@@ -9,7 +9,6 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
-
 #logo {
     width: 300px;
     height: 90px;
